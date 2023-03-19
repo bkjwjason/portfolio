@@ -1,5 +1,5 @@
-import './index.scss';
-import { Cursor, useTypewriter } from 'react-simple-typewriter';
+import './index.scss'
+import { Cursor, useTypewriter } from 'react-simple-typewriter'
 import {Link} from 'react-router-dom'
 const Home = () => {
         const [text, count] = useTypewriter({

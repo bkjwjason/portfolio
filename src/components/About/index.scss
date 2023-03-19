@@ -1,0 +1,12 @@
+ul {
+    font-size: 100px;
+    position: absolute;
+    right: 10%;
+    list-style: none;
+
+    li {
+        :hover {
+            color: white;
+        }
+    }
+}

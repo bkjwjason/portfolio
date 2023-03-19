@@ -18,3 +18,34 @@
     animation: fadeIn 1s forwards;
     animation-delay: 1s;
 }
+
+.about-page {
+    .text-zone {
+        position: absolute;
+        left: 10%;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 50%;
+        vertical-align: middle;
+        display: table-cell;
+        max-height: 90%;
+    }
+
+    h1 {
+        font-size: 53px;
+        font-family: sans-serif;
+        color: #fff;
+        margin-top: 0;
+        margin-bottom: 40px;
+        left: 10px;
+    }
+
+    p {
+        font-size: 20px;
+        color: #fff;
+        font-family: sans-serif;
+        min-width: fit-content;
+
+    }
+
+}
